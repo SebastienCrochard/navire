@@ -1,13 +1,13 @@
-#Application Navire
+# Application Navire
 
-##Application d'apprentissage de Symfony 5.4
+## Application d'apprentissage de Symfony 5.4
 
 Compétences mises en oeuvre :
 
-routage
-contrôleurs
-formulaires
-webpack-encore
-bootstrap
-doctrine
-Securite
+- routage
+- contrôleurs
+- formulaires
+- webpack-encore
+- bootstrap
+- doctrine
+- Securite
