@@ -1,4 +1,21 @@
 {% block footer %}
-    <div class="container-fluid bg-primary">
-        <div class="row text-light">
+    <footer class="bg-primary fixed-bottom py-1">
+        <div class="row align-items-center">
+            <div class="col-sm">
+                <p>
+                    <a class="text-decoration-none text-light" href="#">Contact</a><br>
+                    <a class="text-decoration-none text-light" href="https://github.com/SebastienCrochard">Github Sébastien Crochard</a>
+                </p>
+            </div>
+            <div class="col-sm text-center">
+                    <img class="img-fluid h-100" src="{{ asset('assets/img/PortDeNuit.jpg') }}" alt="Bateau commercial"/>
+            </div>
+            <div class="col-sm text-end">
+                <p>
+                    <a class="text-decoration-none text-light" href="#">Mentions légales</a><br>
+                    <a class="text-decoration-none text-light" href="#">Plan du site</a>
+                </p>
+            </div>
+        </div>
+    </footer>
 {% endblock %}
