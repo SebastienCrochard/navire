@@ -24,8 +24,9 @@ class Navire
     #[ORM\Column(name:'imo', length: 7)]
     #[Assert\Regex('[1-9][0-9]{6}', message:'le numéro IMO doit être unique et composé de 7 chiffres sans commencer par 0')]
     private ?string $imo = null;
-
-    #[ORM\Column(length: 3)]
+    
+    #[ORM\Column(name: 'nom', length: 255)]
+    #[Assert\Length(min:3)]
     private ?string $nom = null;
 
     #[ORM\Column(length: 9)]
